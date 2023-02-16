@@ -1,5 +1,7 @@
 # Continua Minter
 
+Live at [continua-minter.netlify.app](https://continua-minter.netlify.app/).
+
 ## Install
 
 ```sh
