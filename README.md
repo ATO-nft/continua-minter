@@ -32,6 +32,16 @@ OpenSea: [https://testnets.opensea.io/assets/goerli/0x33ac35d661c72ef0265f26dd89
 - Deployment: **0.04 ETH** (68 USD eq. at today's rate)
 - 3 mints **0.01 ETH** (17 USD eq. at today's rate)
 
+## Deployment process
+
+- Upload metadata
+- Fix URIs
+- Fix contract name
+- Send ETH to deployer (0.041)
+- Publish to Mainnet
+- Send ETH to gallery (0.011)
+- Send app url to gallery
+
 ## Supprted networks
 
 - Ethereum Mainnet
