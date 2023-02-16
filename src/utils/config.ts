@@ -16,7 +16,7 @@ export const SOCIAL_GITHUB = 'ATO-nft/continua-minter'
 export const ETH_CHAINS = [goerli, mainnet]
 export const infuraId = process.env.INFURA_ID
 
-export const NFT_CONTRACT_ADDRESS = '0x5e58085A42Ad6e4859DF2b1BAC1a3d8876adC5D5'
+export const NFT_CONTRACT_ADDRESS = '0x7083DDB1EcC0B85075BbFCF6a695Cb3F5B2046a1'
 export const NFT_CONTRACT_ABI = <const>[
   {
     inputs: [],
@@ -185,6 +185,19 @@ export const NFT_CONTRACT_ABI = <const>[
         internalType: 'address',
         name: '',
         type: 'address',
+      },
+    ],
+    stateMutability: 'view',
+    type: 'function',
+  },
+  {
+    inputs: [],
+    name: 'initialized',
+    outputs: [
+      {
+        internalType: 'bool',
+        name: '',
+        type: 'bool',
       },
     ],
     stateMutability: 'view',
