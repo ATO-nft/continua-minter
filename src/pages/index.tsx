@@ -3,7 +3,7 @@ import { Head } from '../components/layout/Head'
 import Image from 'next/image'
 import { LinkComponent } from '../components/layout/LinkComponent'
 import { useState, useEffect } from 'react'
-import { useFeeData, useSigner, useAccount, useBalance, useNetwork, useProvider } from 'wagmi'
+import { useSigner, useAccount, useBalance, useNetwork, useProvider } from 'wagmi'
 import { ethers } from 'ethers'
 import { NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI, METADATA_NFT_1, METADATA_NFT_2, METADATA_NFT_3 } from '../utils/config'
 
@@ -24,7 +24,7 @@ export default function Home() {
 
   const explorerUrl = network.chain?.blockExplorers?.default.url
 
-  const nft = new ethers.Contract(NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI, provider)
+  const nft = new ethers.Contract(NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI, provider as any)
 
   useEffect(() => {
     const val = Number(bal?.formatted).toFixed(3)
@@ -61,7 +61,7 @@ export default function Home() {
         duration: 9000,
         isClosable: true,
       })
-    } catch (e) {
+    } catch (e: any) {
       setLoading(false)
       console.log('error:', e.code)
       if (e.code === 'UNPREDICTABLE_GAS_LIMIT') {
