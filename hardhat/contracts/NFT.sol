@@ -16,12 +16,15 @@ contract NFT is
 {
     constructor() ERC721("NFT", "NFT") {}
 
+    bool public initialized;
+
     /// @dev Can only be called once
     function mint(string memory uri1, string memory uri2, string memory uri3) public onlyOwner {
-        require(!_exists(1));
+        require(initialized == false);
         safeMint(1, uri1);
         safeMint(2, uri2);
         safeMint(3, uri3);
+        initialized = true;
     }
 
     function safeMint(uint256 tokenId, string memory uri) private {
