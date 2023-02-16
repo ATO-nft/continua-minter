@@ -33,8 +33,8 @@ export default function Home() {
   const checkOwnership = async () => {
     try {
       const nft = new ethers.Contract(NFT_CONTRACT_ADDRESS, NFT_CONTRACT_ABI, provider as any)
-      console.log('address:', address)
       const call = await nft.owner()
+      console.log('address:', address)
       console.log('owner:', call)
       if (call === address) {
         setIsContractOwner(true)
@@ -65,7 +65,7 @@ export default function Home() {
       })
     } catch (e: any) {
       setLoading(false)
-      console.log('error:', e.message)
+      console.log('error:', e)
       if (e.code === 'UNPREDICTABLE_GAS_LIMIT') {
         toast({
           title: "CAN'T MINT TWICE",
