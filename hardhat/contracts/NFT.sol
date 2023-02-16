@@ -21,10 +21,10 @@ contract NFT is
     /// @dev Can only be called once
     function mint(string memory uri1, string memory uri2, string memory uri3) public onlyOwner {
         require(initialized == false);
+        initialized = true;
         safeMint(1, uri1);
         safeMint(2, uri2);
         safeMint(3, uri3);
-        initialized = true;
     }
 
     function safeMint(uint256 tokenId, string memory uri) private {
