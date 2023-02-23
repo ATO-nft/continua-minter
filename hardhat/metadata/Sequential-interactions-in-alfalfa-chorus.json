@@ -1,14 +1,19 @@
 {
-    "name": "Waterbones",
+    "name": "Sequential interactions in alfalfa chorus",
     "author": "Loris Cecchini",
     "description": "Polished stainless steel module (316 grade) and digital object. \n\nImportant: The NFT cannot be sold independently of the sculpture (see T&C in the NFT metadata)",
-    "image": "ipfs://bafybeibccdkgllemlvr4nbbt64dnhcjns4ovmxpdmp6mwzdxdldesz7joa/Waterbones.mp4",
-    "license": "ipfs://bafybeibccdkgllemlvr4nbbt64dnhcjns4ovmxpdmp6mwzdxdldesz7joa/Waterbones-terms-and-conditions.pdf",
+    "image": "https://bafybeigqeak7bzfnyxjl3xud2qq2ambm4zlya25xbxv2v2gbt44dvmn5re.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.mp4",
+    "3d_object": "https://bafybeigqeak7bzfnyxjl3xud2qq2ambm4zlya25xbxv2v2gbt44dvmn5re.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.obj",
+    "license": "https://bafybeigqeak7bzfnyxjl3xud2qq2ambm4zlya25xbxv2v2gbt44dvmn5re.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus-terms-and-conditions.pdf",
     "external_url": "https://www.galleriacontinua.com",
     "attributes": [
         {
             "trait_type": "Terms & Conditions",
-            "value": "https://bafybeibccdkgllemlvr4nbbt64dnhcjns4ovmxpdmp6mwzdxdldesz7joa.ipfs.w3s.link/Waterbones-terms-and-conditions.pdf"
+            "value": "https://bafybeigqeak7bzfnyxjl3xud2qq2ambm4zlya25xbxv2v2gbt44dvmn5re.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus-terms-and-conditions.pdf"
+        },
+        {
+            "trait_type": "3D Object",
+            "value": "https://bafybeigqeak7bzfnyxjl3xud2qq2ambm4zlya25xbxv2v2gbt44dvmn5re.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.obj"
         }
     ],
     "license_details": [

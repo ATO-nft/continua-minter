@@ -1,0 +1,53 @@
+{
+    "name": "Waterbones",
+    "author": "Loris Cecchini",
+    "description": "Polished stainless steel module (316 grade) and digital object. \n\nImportant: The NFT cannot be sold independently of the sculpture (see T&C in the NFT metadata)",
+    "image": "https://bafybeickqdsjqztakqtuuy3xbb4kt4nyjb777uudrrcf3oqqojlbzjtlie.ipfs.w3s.link/Waterbones.mp4",
+    "3d_object": "https://bafybeickqdsjqztakqtuuy3xbb4kt4nyjb777uudrrcf3oqqojlbzjtlie.ipfs.w3s.link/Waterbones.obj",
+    "license": "https://bafybeickqdsjqztakqtuuy3xbb4kt4nyjb777uudrrcf3oqqojlbzjtlie.ipfs.w3s.link/Waterbones-terms-and-conditions.pdf",
+    "external_url": "https://www.galleriacontinua.com",
+    "attributes": [
+        {
+            "trait_type": "Terms & Conditions",
+            "value": "https://bafybeickqdsjqztakqtuuy3xbb4kt4nyjb777uudrrcf3oqqojlbzjtlie.ipfs.w3s.link/Waterbones-terms-and-conditions.pdf"
+        },
+        {
+            "trait_type": "3D Object",
+            "value": "https://bafybeickqdsjqztakqtuuy3xbb4kt4nyjb777uudrrcf3oqqojlbzjtlie.ipfs.w3s.link/Waterbones.obj"
+        }
+    ],
+    "license_details": [
+        {
+            "right": "exclusivity",
+            "value": "false"
+        },
+        {
+            "right": "privateUse",
+            "value": "true"
+        },
+        {
+            "right": "displayOnMarketplaces",
+            "value": "true"
+        },
+        {
+            "right": "displayOnEveryMediaNonCommercial",
+            "value": "true"
+        },
+        {
+            "right": "rightToAdapt",
+            "value": "false"
+        },
+        {
+            "right": "rightToAddALogo",
+            "value": "false"
+        },
+        {
+            "right": "merchandisingRights",
+            "value": "false"
+        },
+        {
+            "right": "sellNFTwithoutSculpture",
+            "value": "false"
+        }
+    ]
+}

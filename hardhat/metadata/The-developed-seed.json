@@ -1,0 +1,53 @@
+{
+    "name": "The developed seed",
+    "author": "Loris Cecchini",
+    "description": "Polished stainless steel module (316 grade) and digital object. \n\nImportant: The NFT cannot be sold independently of the sculpture (see T&C in the NFT metadata)",
+    "image": "https://bafybeifjkwjljvwbfn7gpnyxfswxohws2ouv3kmibw5lckkcdnymu7blcu.ipfs.w3s.link/The-developed-seed.mp4",
+    "3d_object": "https://bafybeifjkwjljvwbfn7gpnyxfswxohws2ouv3kmibw5lckkcdnymu7blcu.ipfs.w3s.link/The-developed-seed.obj",
+    "license": "https://bafybeifjkwjljvwbfn7gpnyxfswxohws2ouv3kmibw5lckkcdnymu7blcu.ipfs.w3s.link/The-developed-seed-terms-and-conditions.pdf",
+    "external_url": "https://www.galleriacontinua.com",
+    "attributes": [
+        {
+            "trait_type": "Terms & Conditions",
+            "value": "https://bafybeifjkwjljvwbfn7gpnyxfswxohws2ouv3kmibw5lckkcdnymu7blcu.ipfs.w3s.link/The-developed-seed-terms-and-conditions.pdf"
+        },
+        {
+            "trait_type": "3D Object",
+            "value": "https://bafybeifjkwjljvwbfn7gpnyxfswxohws2ouv3kmibw5lckkcdnymu7blcu.ipfs.w3s.link/The-developed-seed.obj"
+        }
+    ],
+    "license_details": [
+        {
+            "right": "exclusivity",
+            "value": "false"
+        },
+        {
+            "right": "privateUse",
+            "value": "true"
+        },
+        {
+            "right": "displayOnMarketplaces",
+            "value": "true"
+        },
+        {
+            "right": "displayOnEveryMediaNonCommercial",
+            "value": "true"
+        },
+        {
+            "right": "rightToAdapt",
+            "value": "false"
+        },
+        {
+            "right": "rightToAddALogo",
+            "value": "false"
+        },
+        {
+            "right": "merchandisingRights",
+            "value": "false"
+        },
+        {
+            "right": "sellNFTwithoutSculpture",
+            "value": "false"
+        }
+    ]
+}
