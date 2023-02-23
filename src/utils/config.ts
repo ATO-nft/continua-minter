@@ -16,7 +16,7 @@ export const SOCIAL_GITHUB = 'ATO-nft/continua-minter'
 export const ETH_CHAINS = [goerli, mainnet]
 export const infuraId = process.env.INFURA_ID
 
-export const NFT_CONTRACT_ADDRESS = '0x7083DDB1EcC0B85075BbFCF6a695Cb3F5B2046a1'
+export const NFT_CONTRACT_ADDRESS = '0xA208bB697fBdd8b1518F6921C73D2d0C1eF3e67E'
 export const NFT_CONTRACT_ABI = <const>[
   {
     inputs: [],
@@ -519,10 +519,13 @@ export const NFT_CONTRACT_ABI = <const>[
     type: 'receive',
   },
 ]
-export const METADATA_NFT_1 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Waterbones.json'
-export const METADATA_NFT_2 =
-  'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
-export const METADATA_NFT_3 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/The-developed-seed.json'
+export const METADATA_NFT_1 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
+export const METADATA_NFT_2 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
+export const METADATA_NFT_3 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
+// export const METADATA_NFT_1 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Waterbones.json'
+// export const METADATA_NFT_2 =
+//   'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
+// export const METADATA_NFT_3 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/The-developed-seed.json'
 
 export const SERVER_SESSION_SETTINGS = {
   cookieName: SITE_NAME,
