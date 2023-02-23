@@ -2,6 +2,7 @@ import { HardhatUserConfig } from 'hardhat/config'
 import '@nomicfoundation/hardhat-toolbox'
 import * as dotenv from 'dotenv'
 import '@nomiclabs/hardhat-etherscan'
+import 'hardhat-gas-reporter'
 
 dotenv.config()
 
@@ -17,6 +18,11 @@ const config: HardhatUserConfig = {
         runs: 200,
       },
     },
+  },
+  gasReporter: {
+    currency: 'USD',
+    gasPrice: 26,
+    enabled: true,
   },
   mocha: {
     timeout: 100000,

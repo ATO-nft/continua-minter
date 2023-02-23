@@ -522,10 +522,10 @@ export const NFT_CONTRACT_ABI = <const>[
 export const METADATA_NFT_1 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
 export const METADATA_NFT_2 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
 export const METADATA_NFT_3 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
-// export const METADATA_NFT_1 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Waterbones.json'
+// export const METADATA_NFT_1 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Waterbones.json'
 // export const METADATA_NFT_2 =
-//   'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
-// export const METADATA_NFT_3 = 'https://bafybeidlcsilpd2dxff7h3r6lfvvmvotlg73zz5rvhporjn6ht46bhhfvi.ipfs.w3s.link/The-developed-seed.json'
+//   'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
+// export const METADATA_NFT_3 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/The-developed-seed.json
 
 export const SERVER_SESSION_SETTINGS = {
   cookieName: SITE_NAME,
