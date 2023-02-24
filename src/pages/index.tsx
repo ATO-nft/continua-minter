@@ -156,9 +156,7 @@ export default function Home() {
           <br />
           Your NFT contract is deployed to Ethereum Goerli Testnet at{' '}
           <strong>
-            <a href="https://goerli.etherscan.io/address/0x33AC35D661c72Ef0265F26dd897A126818FAFbB2#code">
-              0x33AC35D661c72Ef0265F26dd897A126818FAFbB2
-            </a>
+            <a href={'https://goerli.etherscan.io/address/' + NFT_CONTRACT_ADDRESS + '#code'}>{NFT_CONTRACT_ADDRESS}</a>
           </strong>
           . Here&apos;s the source code:
         </p>
