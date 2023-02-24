@@ -19,11 +19,11 @@ const config: HardhatUserConfig = {
       },
     },
   },
-  gasReporter: {
-    currency: 'USD',
-    gasPrice: 26,
-    enabled: true,
-  },
+  // gasReporter: {
+  //   currency: 'USD',
+  //   gasPrice: 26,
+  //   enabled: true,
+  // },
   mocha: {
     timeout: 100000,
   },
