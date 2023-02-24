@@ -96,7 +96,7 @@ export default function Home() {
         <br />
         <p>Welcome to Continua Minter!</p>
         <br />
-        <p>You&apos;re about to mint 3 NFTs on Ethereum Goerli Testnet. We&apos;ll switch to Ethereum Mainnet when the time&apos;s right.</p>
+        <p>You&apos;re about to mint 3 NFTs on Ethereum Mainnet.</p>
         <br />
         {!address ? (
           <p style={{ color: 'red' }}>
