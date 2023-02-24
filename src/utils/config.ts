@@ -1,5 +1,5 @@
 import { ThemingProps } from '@chakra-ui/react'
-import { goerli, mainnet } from '@wagmi/chains'
+import { mainnet } from '@wagmi/chains'
 
 export const SITE_NAME = 'Continua Minter'
 export const SITE_DESCRIPTION = 'Continua exclusive minter'
@@ -13,10 +13,10 @@ export const THEME_CONFIG = {
 export const SOCIAL_TWITTER = ''
 export const SOCIAL_GITHUB = 'ATO-nft/continua-minter'
 
-export const ETH_CHAINS = [goerli, mainnet]
+export const ETH_CHAINS = [mainnet]
 export const infuraId = process.env.INFURA_ID
 
-export const NFT_CONTRACT_ADDRESS = '0xA208bB697fBdd8b1518F6921C73D2d0C1eF3e67E'
+export const NFT_CONTRACT_ADDRESS = '0xf856df92c7664854d36aca785c81d30f95dac67a'
 export const NFT_CONTRACT_ABI = <const>[
   {
     inputs: [],
@@ -519,13 +519,10 @@ export const NFT_CONTRACT_ABI = <const>[
     type: 'receive',
   },
 ]
-export const METADATA_NFT_1 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
-export const METADATA_NFT_2 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
-export const METADATA_NFT_3 = 'ipfs://bafkreiboolcoysvzztwdy6yyl53xfygo6e2gw44courqodaati4dmd4iem'
-// export const METADATA_NFT_1 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Waterbones.json'
-// export const METADATA_NFT_2 =
-//   'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
-// export const METADATA_NFT_3 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/The-developed-seed.json
+export const METADATA_NFT_1 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Waterbones.json'
+export const METADATA_NFT_2 =
+  'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/Sequential-interactions-in-alfalfa-chorus.json'
+export const METADATA_NFT_3 = 'https://bafybeidjxeyyjzlrkgqswa4zmwbe3uqdggufrvno7m4xbm3ijumnoyqnju.ipfs.w3s.link/The-developed-seed.json'
 
 export const SERVER_SESSION_SETTINGS = {
   cookieName: SITE_NAME,
